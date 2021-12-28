@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100 %;
+}
+body{
+
+	text-align:center;
+}
+main{
+	max-height: 50%;
+}
+html{
+	text-align:center;
+	background-size: cover; 
+	background-image: url("css/img/back2.jpg");	
+	background-repeat: no-repeat;
+	min-width: 100%;
+	
+	
+}
+.header{
+	background: rgba(0, 0, 0, 0.5);
+	text-shadow: 0 1px black;
+}
+.container{
+	width: 100%;
+	text-align: center;
+	padding: 0 30px;
+
+}
+p{
+	margin:0px;
+	color: white;
+}
+a{
+	margin: 0px;
+	color: white;
+	text-decoration: none;
+}
+h1{
+	margin: 0;
+	margin-top: 32px;
+	color: white;
+	font-family: Roboto;
+	font-size: 144px;
+	padding-bottom: 0px;
+	/*text-shadow: 0 1px black;*/
+}
+.logo{
+	padding-top: 25px;
+}
+.nav ul{
+	display: flex;
+	list-style-type: none;
+	font-family: Marck Script;
+	font-size: 48px;
+	padding-left: 50px;
+
+
+}
+.nav :hover{
+	color:#E09B32;
+	transition: 0.32s;
+}
+.call a:hover{
+	color:#E09B32;
+	transition: 0.32s;
+}
+
+.nav li + li{
+	padding-left: 64px;
+}
+.call{
+	padding-top: 48px;
+	font-size: 20px; 
+}
+.space-between{
+	display: flex;
+	justify-content: space-between;
+}
+.buttonelem {
+	margin: 0px;
+	font-size: 24px;
+	color: black;
+	font-family: Roboto;
+	padding: 16px 16px;
+
+}
+.button{
+	margin-top: 16px;
+	opacity: 70%;
+	display: inline-block;
+	padding: 16px 0px;
+	border-radius: 45px;
+	border: 3px solid black;
+	transition: 0.72s;
+	background: #EF6F12;
+}
+.button:hover {
+	opacity: 1;
+	transform: scale(1.08);
+	transition: 0.32s;
+}
+.icons{
+	margin-top: 120px;
+}
+.icons a{
+	margin: 0px 4px;
+
+}
+
+.icons a img{
+	opacity:0.7;
+}
+.icons{
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	width: 100%
+}
+.icons a:hover img{
+	opacity: 1;
+	transform: scale(1.5);
+	transition: 0.32s;
+}
+
+ 	
+
+   
