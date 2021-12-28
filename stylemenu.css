@@ -1,0 +1,165 @@
+* {
+	box-sizing: border-box;
+	
+}
+img {
+	max-width: 100 %;
+}
+body{
+
+	text-align:center;
+}
+html{
+	text-align:center;
+	background-size: cover; 
+	background-image: url("css/img/Group 11.png");	
+	background-repeat: no-repeat;
+	min-height: 100%;
+	
+	
+}
+/*.header{
+	padding: 32px 0px;
+	background: rgba(0, 0, 0, 0.5);
+	text-shadow: 0 1px black;
+}
+*/
+.container{
+	width: 100%;
+	text-align: center;
+	padding: 0 30px;
+
+
+}
+
+p{
+	padding:4px 4px; 
+	border-radius: 10px;
+	border: 3px solid white;
+	background: rgba(0, 0, 0, 0.5);
+	font-family: Marck Script;
+	font-size: 24px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.soc{
+	padding-top:20px;
+	padding-right: 70px;
+}
+ul{
+	list-style-type: none;
+}
+.logo{
+	margin:0;
+	padding-top: 20px;
+}
+.soc ul{
+	display: flex;
+	list-style-type: none;
+	font-family: Marck Script;
+}
+.choose ul{
+	display: flex;
+	list-style-type: none;
+	font-family: Marck Script;
+	font-size: 16px;
+}
+.bigchoosepizza li{
+	background: rgba(239, 111, 18, 0.2);;
+	padding: 16px 16px;
+	border-radius: 10px;
+	border: 3px solid #EF6F12;
+}
+
+
+/*.bigchoosepizza li + li{
+	padding-left: 15px;
+}*/
+.bigchoosepizza{
+	width: 100%;
+}
+
+.soc li + li{
+	padding-left: 15px;
+}
+.choose li + li{
+	padding-left: 15px;
+}
+.menu{
+	margin-top:24px;
+	color: White;
+	font-family: Marck Script;
+	font-size: 64px;
+
+}
+.choose{
+	margin-top: 58px;
+}
+.space-between{
+	display: flex;
+	justify-content: space-between;
+}
+.button{
+	margin-top: 16px;
+	display: inline-block;
+	padding: 8px 16px;
+	border-radius: 45px;
+	border: 3px solid white;
+	background: #EF6F12;
+	transition: 0.72s;
+}
+.container1{
+	
+	padding-top:32px;
+	padding-right: 35px;
+}
+.container2{
+	
+	margin:0;
+	padding-top:32px;
+	padding-right: 35px;
+}
+main{
+	text-align:center;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	border: 3px solid white;
+
+}
+
+.bas{
+	padding-right: 95px;
+	padding-top: 20px;
+}
+
+.menu a small:hover{
+	color:#EF6F12;
+	transition: 0.32s;
+
+}
+.soc a:hover img{
+	transform: scale(1.2);
+	transition: 0.32s;
+}
+.choose ul li{
+	font-size: 24px;
+	opacity: 0.7;
+
+}
+.choose ul li:hover{
+	opacity: 1;
+	transform: scale(1.2);
+	transition: 0.32s;
+	
+
+}
+.bas a:hover img{
+	transform: scale(1.2);
+	transition: 0.32s;
+}
+.ramka{
+	
+}
+

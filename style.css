@@ -7,24 +7,22 @@ img {
 body{
 
 	text-align:center;
-	
-	
+}
+main{
+	max-height: 50%;
 }
 html{
 	text-align:center;
 	background-size: cover; 
-	background-image: url("img/back2.jpg");	
+	background-image: url("css/img/back2.jpg");	
 	background-repeat: no-repeat;
 	min-width: 100%;
-	min-height: 100%;
-
+	
 	
 }
 .header{
 	background: rgba(0, 0, 0, 0.5);
 	text-shadow: 0 1px black;
-
-
 }
 .container{
 	width: 100%;
@@ -75,7 +73,7 @@ h1{
 	padding-left: 64px;
 }
 .call{
-	padding-top: 48px;
+	padding-top: 67px;
 	font-size: 20px; 
 }
 .space-between{
@@ -127,10 +125,7 @@ h1{
 	transform: scale(1.5);
 	transition: 0.32s;
 }
-.centr{
- 	top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-}
+
+ 	
+
+   

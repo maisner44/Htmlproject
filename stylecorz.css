@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+}
+body{
+	max-width: 100 %;
+}
+html{
+	text-align:center;
+	background-size: cover; 
+	background-image: url("css/img/Group 13.png");	
+	background-repeat: no-repeat;
+	min-height: 100%;
+	
+	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-family: Marck Script;
+	font-size: 64px;
+}
+main{
+	margin-top: 100px;
+}
+
+.cena{
+	width: 120px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.5);
+
+}
+
+.first{
+	font-family: Marck Script;
+	background: #A7F668;
+	width: 518px;
+
+}
+.first p{
+	margin: 0;
+	font-size: 32px;
+	padding:16px 16px; 
+}
+small{
+	padding-top: 10px;
+	color: white;
+	font-family: Roboto;
+	font-size: 24px;
+	padding-left: 40px;
+
+}
+.container11{
+	border: 3px solid white;
+	padding: 16px 16px;
+	padding-right: 32px;
+	padding-top: 32px;
+	border-radius: 10px;
+	margin-left: 32px;
+}
+.sale p{
+	margin: 0;
+	padding:40px 32px; 
+	border-radius: 10px;
+	border: 3px solid white;
+	background: rgba(0, 0, 0, 0.5);
+	font-family: Marck Script;
+	font-size: 24px;
+	color: White;
+}
+li{
+	list-style-type: none;
+}
+.price{
+	
+}
+.price2{
+	
+}
+.price li{
+	opacity: 0.5;
+	width: 300px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.5);
+	margin-bottom: 30px;
+	
+}
+.price2 li{
+	width: 120px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.5);
+	margin-bottom: 30px;
+	
+}
+.menu{
+	margin-top:40px;
+	color: White;
+	font-family: Marck Script;
+	font-size: 64px;
+
+}
+
+
+
+.logo{
+	margin:0;
+	padding-top: 30px;
+}
+.soc ul{
+	display: flex;
+	list-style-type: none;
+
+}
+.soc li + li{
+	padding-left: 15px;
+}
+.container{
+	width: 100%;
+	text-align: center;
+	padding: 0 30px;
+}
+.container2{
+	margin:0;
+	width: 360px;
+	padding-right: 200px;
+	text-align: center;
+}
+.soc{
+	padding-top:50px;
+	padding-right: 70px;
+}
+.sale ul{
+	padding: 0px 0px 0px 0px;
+	display: flex;
+}
+.sale li + li{
+	padding-left: 15px;
+}
+.sale{
+	margin-top: 8px;
+	width: 480px;
+	padding: 16px 16px;
+	border-radius: 10px;
+	border: 3px solid white;
+}
+.space-between{
+	display: flex;
+	justify-content: space-between;
+}
+.bigchoosepizza li{
+	background: rgba(239, 111, 18, 0.2);;
+	padding: 16px 16px;
+	border-radius: 10px;
+	border: 3px solid #EF6F12;
+}
+.soc a:hover img{
+	transform: scale(1.2);
+	transition: 0.32s;
+}
+.menu a:hover{
+	color:#EF6F12;
+	transition: 0.32s;
+
+}
