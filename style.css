@@ -5,7 +5,7 @@ img {
 	max-width: 100 %;
 }
 body{
-
+	
 	text-align:center;
 }
 main{
@@ -124,6 +124,10 @@ h1{
 	opacity: 1;
 	transform: scale(1.5);
 	transition: 0.32s;
+}
+.centr{
+	margin-top: 15%;
+	margin-bottom: 25%;
 }
 
  	
